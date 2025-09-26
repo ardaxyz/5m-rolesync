@@ -3,7 +3,5 @@ fx_version 'cerulean'
 
 author 'https://github.com/ardaxyz'
 
-server_scripts {
-    'config.lua',
-    'server.lua',
-}
+shared_script 'config.lua'
+server_script 'server.lua'
